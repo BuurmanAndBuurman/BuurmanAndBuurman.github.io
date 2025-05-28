@@ -14,7 +14,7 @@ div.topbalk {
 }
 
 div.zijbalk {
-    height: 720px;
+    height: 1500px;
     background-color: yellow;
     width: 333px;
 }
@@ -38,7 +38,7 @@ div ul li {
 }
 
 div ul li:hover {
-    background-color: brown;
+    background-color:brown;
 }
 
 div ul li a {
@@ -48,4 +48,13 @@ div ul li a {
 
 ::marker {
     display: none;
+}
+#tekstoverons {
+    margin-left: 335px;
+    position: sticky;
+}
+#divtekstoverons {
+    width: 1200px;
+    align-self: center;
+    position: absolute;
 }
