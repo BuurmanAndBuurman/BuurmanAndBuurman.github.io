@@ -1,60 +1,610 @@
-h1 {
+h1 { /* geeft een stijl aan h1 tekst*/
     color:black;
     font-size: 100px;
     font-style: italic;
+    margin-top: 0%;
 }
 
-div.topbalk {
+div.topbalk { /*basis van de top balk en zorgt ervoor dat de tekst in het midden staat*/
     top: 0;
     position: sticky;
     height: 200px;
-    background-color: red;
+    background-color: rgb(223, 22, 22);
     width: 100%;
     text-align: center;
 }
 
-div.zijbalk {
-    height: 1500px;
-    background-color: yellow;
-    width: 333px;
-}
-
-div ul {
+div ul { /*nav bar styles zodat het horizontaal wordt*/
     margin-top: -75px;
-    background-color: red;
+    background-color: rgb(223, 22, 22);
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
 
-div ul li {
+div ul li { /*zorgt ervoor dat alles in de list van de nav bar netjes is*/
     font-size: 25px;
     margin: 10px;
     padding: 10px;
     border: 0;
     border-radius: 20px;
-    background-color: red;
+    background-color: rgb(223, 22, 22);
     transition: all 0.5s ease-in-out;
 }
 
-div ul li:hover {
+div ul li:hover { /*zorgt ervoor dat als je over de nav bar hovert dat het bruin wordt*/
     background-color:brown;
 }
 
-div ul li a {
+div ul li a { /*zorgt ervoor dat de tekst van de nav bar geen underline heeft en niet meer blauw is*/
     color: black;
     text-decoration: none;
 }
 
-::marker {
+::marker {  /*zorgt dat er geen puntjes zijn bij de nav bar*/
     display: none;
 }
-#tekstoverons {
+
+#tekstoverons {   /*zorgt er voor dat de aboutus tekst een gele achtergrond is en dat er ronde hoeken zijn*/
+   background-color: yellow;
+   border-radius: 200px;
+}
+
+#FAQtekst {       /*hetzelfde maar dan voor FAQ*/
+    background-color: yellow;
+    border-radius: 200px;
+}
+
+#divproducts {   /*zorgt ervoor dat de topbalk sticky is*/
     margin-left: 335px;
     position: sticky;
 }
-#divtekstoverons {
-    width: 1200px;
-    align-self: center;
-    position: absolute;
+#Mok {   /*zorgt voor alle stijl van de producten divjes*/
+    background-color: yellow;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+    margin-top: 5px;
+}
+#Mok img {    /*alle stijl voor de img*/
+    width: 100%;
+    border-radius: 12px;
+    height: 320px;
+}
+.Products {    /*zorgt ervoor dat alle producten op een netjes rijtje staan*/
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 15px;
+}
+.Products p {  /*zorgt ervoor dat de prijs van de producten netjes aan de rechter kant van de div staan*/
+    text-align: end;
+}
+#T-shirt {   /*zorgt voor alle stijl van de producten divjes*/
+    background-color: yellow;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+    margin-top: 5px;
+}
+#T-shirt img {    /*alle stijl voor de img*/
+    width: 100%;
+    border-radius: 12px;
+    height: 320px
+}
+H2 {  /*zorgt voor alle stijl van alle h2 tekst*/
+   text-align: center;
+   font-size: 50px;
+}
+h3 {  /*zorgt voor alle stijl van alle h3 tekst*/
+   text-align: center;
+}
+#muts {   /*zorgt voor alle stijl van de producten divjes*/
+    background-color: yellow;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+    margin-top: 5px;
+}
+#muts img {    /*alle stijl voor de img*/
+    width: 100%;
+    border-radius: 12px;
+    height: 320px;
+}
+#pak {   /*zorgt voor alle stijl van de producten divjes*/
+    background-color: yellow;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+    margin-top: 5px;
+}
+#pak img {    /*alle stijl voor de img*/
+    width: 100%;
+    border-radius: 12px; 
+    height: 320px;
+}
+#knuffels {   /*zorgt voor alle stijl van de producten divjes*/
+    background-color: yellow;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+    margin-top: 5px;
+}
+#knuffels img {    /*alle stijl voor de img*/
+    width: 100%;
+    border-radius: 12px;
+    height: 320px;
+}
+#lego {   /*zorgt voor alle stijl van de producten divjes*/
+    background-color: yellow;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+    margin-top: 5px;
+}
+#lego img {    /*alle stijl voor de img*/
+    width: 100%;
+    border-radius: 12px;
+    height: 320px;
+}
+#puzzel {   /*zorgt voor alle stijl van de producten divjes*/
+    background-color: yellow;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+    margin-top: 5px;
+}
+#puzzel img {    /*alle stijl voor de img*/
+    width: 100%;
+    border-radius: 12px;
+    height: 320px;
+}
+#trui {   /*zorgt voor alle stijl van de producten divjes*/
+    background-color: yellow;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+    margin-top: 5px;
+}
+#trui img {    /*alle stijl voor de img*/
+    width: 100%;
+    border-radius: 12px;
+    height: 320px;
+}
+#gereedschapskist {
+    background-color: yellow;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+    margin-top: 5px;
+}
+#gereedschapskist img {    /*alle stijl voor de img*/
+    width: 100%;
+    border-radius: 12px;
+    height: 320px;
+}
+#boek {   /*zorgt voor alle stijl van de producten divjes*/
+    background-color: yellow;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+    margin-top: 5px;
+}
+#boek img {    /*alle stijl voor de img*/
+    width: 100%;
+    border-radius: 12px;
+    height: 320px;
+}
+#koelkastmagneet {   /*zorgt voor alle stijl van de producten divjes*/
+    background-color: yellow;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+    margin-top: 5px;
+}
+#koelkastmagneet img {    /*alle stijl voor de img*/
+    width: 100%;
+    border-radius: 12px;
+    height: 320px;
+}
+#rugzak {   /*zorgt voor alle stijl van de producten divjes*/
+    background-color: yellow;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+    margin-top: 5px;
+}
+#rugzak img {    /*alle stijl voor de img*/
+    width: 100%;
+    border-radius: 12px;
+    height: 320px;
+}
+#vierdvds {   /*zorgt voor alle stijl van de producten divjes*/
+    background-color: yellow;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+    margin-top: 5px;
+}
+#vierdvds img {    /*alle stijl voor de img*/
+    width: 100%;
+    border-radius: 12px;
+    height: 320px;
+}
+#dvdbox {   /*zorgt voor alle stijl van de producten divjes*/
+    background-color: yellow;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+    margin-top: 5px;
+}
+#dvdbox img {    /*alle stijl voor de img*/
+    width: 100%;
+    border-radius: 12px;
+    height: 320px;
+}
+#dvddeel1 {   /*zorgt voor alle stijl van de producten divjes*/
+    background-color: yellow;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+    margin-top: 5px;
+}
+#dvddeel1 img {    /*alle stijl voor de img*/
+    width: 100%;
+    border-radius: 12px;
+    height: 320px;
+}
+#dvddeel2 {   /*zorgt voor alle stijl van de producten divjes*/
+    background-color: yellow;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+    margin-top: 5px;
+}
+#dvddeel2 img {    /*alle stijl voor de img*/
+    width: 100%;
+    border-radius: 12px;
+    height: 320px;
+}
+h6 {    /*zorgt voor alle stijl voor alle h6 tekst*/
+    font-size: 30px;
+    margin: 0%;
+    margin-top: 1%;
+}
+#Winkelmandje {   /*zorgt ervoor dat de <a href=""><img> naar het winkelwagentje mooi recht boven staat*/
+    float: right;
+    margin: 10px;
+}
+#Winkelmandje img {  /*zorgt ervoor dat de img van het winkelwagentje de juiste grootte heeft*/
+    width: 90px;
+    height: 75px;
+}
+#tshirtpagina img {  /*zorgt voor de stijl van de foto van de producten foto in de product pagina zelf*/
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#tshirtpagina {  /*zorgt voor de stijl voor alles in de product pagina zelf zodat alles er netjes uitziet*/
+    background-color: yellow;
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#tshirtpagina p {   /*zorgt dat de <p> een beetje margin heeft zodat het er iets netter uitziet*/
+    margin: 20px;
+}
+#Truipagina img {  /*zorgt voor de stijl van de foto van de producten foto in de product pagina zelf*/
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#Truipagina {  /*zorgt voor de stijl voor alles in de product pagina zelf zodat alles er netjes uitziet*/
+    background-color: yellow;
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#Truipagina p {   /*zorgt dat de <p> een beetje margin heeft zodat het er iets netter uitziet*/
+    margin: 20px;
+}
+#pakpagina img {  /*zorgt voor de stijl van de foto van de producten foto in de product pagina zelf*/
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#pakpagina {  /*zorgt voor de stijl voor alles in de product pagina zelf zodat alles er netjes uitziet*/
+    background-color: yellow;
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#pakpagina p {   /*zorgt dat de <p> een beetje margin heeft zodat het er iets netter uitziet*/
+    margin: 20px;
+}
+#mutspagina img {  /*zorgt voor de stijl van de foto van de producten foto in de product pagina zelf*/
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#mutspagina {  /*zorgt voor de stijl voor alles in de product pagina zelf zodat alles er netjes uitziet*/
+    background-color: yellow;
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#mutspagina p {   /*zorgt dat de <p> een beetje margin heeft zodat het er iets netter uitziet*/
+    margin: 20px;
+}
+#vierdvdspagina img {  /*zorgt voor de stijl van de foto van de producten foto in de product pagina zelf*/
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#vierdvdspagina {  /*zorgt voor de stijl voor alles in de product pagina zelf zodat alles er netjes uitziet*/
+    background-color: yellow;
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#vierdvdspagina p {   /*zorgt dat de <p> een beetje margin heeft zodat het er iets netter uitziet*/
+    margin: 20px;
+}
+#dvdboxpagina img {  /*zorgt voor de stijl van de foto van de producten foto in de product pagina zelf*/
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#dvdboxpagina {  /*zorgt voor de stijl voor alles in de product pagina zelf zodat alles er netjes uitziet*/
+    background-color: yellow;
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#dvdboxpagina p {   /*zorgt dat de <p> een beetje margin heeft zodat het er iets netter uitziet*/
+    margin: 20px;
+}
+#dvddeel1pagina img {  /*zorgt voor de stijl van de foto van de producten foto in de product pagina zelf*/
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#dvddeel1pagina {  /*zorgt voor de stijl voor alles in de product pagina zelf zodat alles er netjes uitziet*/
+    background-color: yellow;
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#dvddeel1pagina p {   /*zorgt dat de <p> een beetje margin heeft zodat het er iets netter uitziet*/
+    margin: 20px;
+}
+#dvddeel2pagina img {  /*zorgt voor de stijl van de foto van de producten foto in de product pagina zelf*/
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#dvddeel2pagina {  /*zorgt voor de stijl voor alles in de product pagina zelf zodat alles er netjes uitziet*/
+    background-color: yellow;
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#dvddeel2pagina p {   /*zorgt dat de <p> een beetje margin heeft zodat het er iets netter uitziet*/
+    margin: 20px;
+}
+#boekpagina img {  /*zorgt voor de stijl van de foto van de producten foto in de product pagina zelf*/
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#boekpagina {  /*zorgt voor de stijl voor alles in de product pagina zelf zodat alles er netjes uitziet*/
+    background-color: yellow;
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#boekpagina p {   /*zorgt dat de <p> een beetje margin heeft zodat het er iets netter uitziet*/
+    margin: 20px;
+}
+#magneetpagina img {  /*zorgt voor de stijl van de foto van de producten foto in de product pagina zelf*/
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#magneetpagina {  /*zorgt voor de stijl voor alles in de product pagina zelf zodat alles er netjes uitziet*/
+    background-color: yellow;
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#magneetpagina p {   /*zorgt dat de <p> een beetje margin heeft zodat het er iets netter uitziet*/
+    margin: 20px;
+}
+#mokpagina img {  /*zorgt voor de stijl van de foto van de producten foto in de product pagina zelf*/
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#mokpagina {  /*zorgt voor de stijl voor alles in de product pagina zelf zodat alles er netjes uitziet*/
+    background-color: yellow;
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#mokpagina p {   /*zorgt dat de <p> een beetje margin heeft zodat het er iets netter uitziet*/
+    margin: 20px;
+}
+#rugzakpagina img {  /*zorgt voor de stijl van de foto van de producten foto in de product pagina zelf*/
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#rugzakpagina {  /*zorgt voor de stijl voor alles in de product pagina zelf zodat alles er netjes uitziet*/
+    background-color: yellow;
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#rugzakpagina p {   /*zorgt dat de <p> een beetje margin heeft zodat het er iets netter uitziet*/
+    margin: 20px;
+}
+#gereedschapskistpagina img {  /*zorgt voor de stijl van de foto van de producten foto in de product pagina zelf*/
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#gereedschapskistpagina {  /*zorgt voor de stijl voor alles in de product pagina zelf zodat alles er netjes uitziet*/
+    background-color: yellow;
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#gereedschapskistpagina p {   /*zorgt dat de <p> een beetje margin heeft zodat het er iets netter uitziet*/
+    margin: 20px;
+}
+#knuffelspagina img {  /*zorgt voor de stijl van de foto van de producten foto in de product pagina zelf*/
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#knuffelspagina {  /*zorgt voor de stijl voor alles in de product pagina zelf zodat alles er netjes uitziet*/
+    background-color: yellow;
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#knuffelspagina p {   /*zorgt dat de <p> een beetje margin heeft zodat het er iets netter uitziet*/
+    margin: 20px;
+}
+#legopagina img {  /*zorgt voor de stijl van de foto van de producten foto in de product pagina zelf*/
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#legopagina {  /*zorgt voor de stijl voor alles in de product pagina zelf zodat alles er netjes uitziet*/
+    background-color: yellow;
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#legopagina p {   /*zorgt dat de <p> een beetje margin heeft zodat het er iets netter uitziet*/
+    margin: 20px;
+}
+#puzzelpagina img {  /*zorgt voor de stijl van de foto van de producten foto in de product pagina zelf*/
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+#puzzelpagina {  /*zorgt voor de stijl voor alles in de product pagina zelf zodat alles er netjes uitziet*/
+    background-color: yellow;
+    border-radius: 30px;
+    width: 1000px;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#puzzelpagina p {   /*zorgt dat de <p> een beetje margin heeft zodat het er iets netter uitziet*/
+    margin: 20px;
+}
+#pakfotowm {   /*zorgt voor de grootte en de plek van de foto in het winkelwagentje*/
+    height: 320px;
+    width: 300px;
+    margin-top: 3%;
+    float: left;
+}
+#Winkelmandjefotopak {   /*zorgt voor de div stijl voor de pagina in het winkelwagentje*/
+    background-color: yellow;
+    border: solid 2px;
+    width: 1000px;
+    height: 370px;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+}
+#Winkelmandjefotopak p {   /*geeft stijl aan de <p> in het winkelwagentje*/
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#voegtoeaanwinkelmand {   /*dit is voor het gele gedeelte van het product uit de winkel man*/
+    background-color: yellow;
+    height: 50px;
+    width: 400px;
+    justify-self: center;
+    border-radius: 75px;
+}
+h5 {  /*geeft een grootte aan alle h5 tekst*/
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+a {   /*zorgt ervoor dat er geen underline en geen color meer is in de <a>*/
+    color: black;
+    text-decoration: none;
+}
+.wmbeschrijving {  /* dit maak het zodat de naam en prijs van het product goed in het midden staan*/
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
 }
